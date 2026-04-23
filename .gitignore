@@ -1,0 +1,48 @@
+# OS 임시 파일
+.DS_Store
+Thumbs.db
+.vscode
+.idea
+
+# 필수 대상
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+*.pyc
+*.pyo
+__pycache__/
+.pytest_cache/
+.docker/
+aws-auth.yaml
+build_config.json
+aws_config/
+venv/
+.venv/
+
+# 빌드 결과물
+/dist
+/build
+/node_modules
+/coverageid_ed25519_argocd
+id_ed25519_argocd.pub
+
+# Local terraform state
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+
+# Terraform plugins and modules
+.terraform/
+.terraform.lock.hcl
+
+# SSH Keys (if stored in the project folder)
+*.pem
+*.pub
+
+# Variable files (if you use them)
+*.tfvars
+*.tfvars.json
