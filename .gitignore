@@ -34,6 +34,11 @@ id_ed25519_argocd.pub
 *.tfstate
 *.tfstate.backup
 *.tfstate.lock.info
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
 
 # Terraform plugins and modules
 .terraform/
